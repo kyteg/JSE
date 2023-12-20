@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node18/tsconfig.json",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "allowUnreachableCode": false,
+    "strict": true,
+    "experimentalDecorators": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noErrorTruncation": true,
+    "noImplicitThis": false,
+    "resolveJsonModule": true,
+    "outDir": "./build",
+    "lib": ["ES6", "DOM"]
+  },
+
+}

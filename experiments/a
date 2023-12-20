@@ -1,0 +1,8 @@
+function foo(a, b) {
+    if (a === 10) {
+        if (b === 2*a) {
+            ERROR
+        }
+    }
+}
+
